@@ -1,0 +1,52 @@
+{
+  "name": "@saif29oct/react-hooks",
+  "version": "0.1.0",
+  "description": "A collection of reusable React hooks",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": "{\"type\":\"git\",\"url\":\"git+https://github.com/saif29oct/react-hooks.git\"}",
+  "keywords": [
+    "react",
+    "hooks",
+    "custom-hooks",
+    "typescript"
+  ],
+  "author": "Saiful Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saif29oct/react-hooks/issues"
+  },
+  "homepage": "https://github.com/saif29oct/react-hooks#readme",
+  "dependencies": {
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.1.4",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rollup": "^4.40.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-jest": "^29.3.4",
+    "typescript": "^5.8.3"
+  },
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^19.1.0"
+  }
+}
